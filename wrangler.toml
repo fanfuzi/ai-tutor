@@ -1,0 +1,8 @@
+name = "ai-tutor"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-05-01"
+
+[vars]
+# AI_VISION_MODEL = "Qwen/Qwen3-VL-8B-Instruct"
+
+# 通过 npx wrangler pages secret put SILICONFLOW_API_KEY 设置 API Key

@@ -1,0 +1,23 @@
+{
+  "name": "ai-tutor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "deploy:cf": "vite build && npx wrangler pages deploy dist --branch main",
+    "db:init": "echo 'AI Tutor does not need a database'"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^6.0.0"
+  }
+}
